@@ -1,1 +1,12 @@
-GET https://stalynalvarado-zany-spork-7g669564v9x2xprr-8080.preview.app.github.dev/
+GET https://stalynalvarado-zany-spork-7g669564v9x2xprr-8080.preview.app.github.dev
+###
+@server=https://stalynalvarado-zany-spork-7g669564v9x2xprr-8080.preview.app.github.dev
+
+
+###
+GET {{server}}/
+###
+POST {{server}}/cursos/1
+Content-Type:application/json
+{"Nombre":"Algoritmos","Creditos":3}
+###
